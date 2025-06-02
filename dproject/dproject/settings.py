@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'tags.apps.TagsConfig',
     'donations.apps.DonationsConfig',
     'comments.apps.CommentsConfig',
+    'ratings.apps.RatingsConfig',
 ]
 
 MIDDLEWARE = [
