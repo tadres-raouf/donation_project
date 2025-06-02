@@ -22,16 +22,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('api/accounts/', include('accounts.api.urls')),
-    # path('api/categories/', include('categories.api.urls')),
-    # path('api/tags/', include('tags.api.urls')),
-    # path('api/projects/', include('projects.api.urls')),
-    # path('api/comments/', include('comments.api.urls')),
-    # path('api/ratings/', include('ratings.api.urls')),
-    # path('api/donations/', include('donations.api.urls')),
-    # path('api/reports/', include('reports.api.urls')),
-    # path('api/media/', include('media.api.urls')),
-    # path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    
+    path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
