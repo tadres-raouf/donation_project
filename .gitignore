@@ -1,0 +1,21 @@
+# Ignore virtual environments
+demo/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Django stuff
+*.sqlite3
+*.log
+/static/
+/media/
+
+# Env variables
+.env
+*.env
+
+# VSCode settings
+.vscode/
