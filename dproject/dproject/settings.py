@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'categories.apps.CategoriesConfig',
     'projects.apps.ProjectsConfig',
     'tags.apps.TagsConfig',
+    'donations.apps.DonationsConfig',
 ]
 
 MIDDLEWARE = [
