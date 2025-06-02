@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'donations.apps.DonationsConfig',
     'comments.apps.CommentsConfig',
     'ratings.apps.RatingsConfig',
+    'reports.apps.ReportsConfig',
 ]
 
 MIDDLEWARE = [
