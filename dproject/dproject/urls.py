@@ -28,6 +28,8 @@ urlpatterns = [
     path('api/categories/', include('categories.api.urls')),
     path('api/comments/', include('comments.api.urls')),
     path('api/donations/', include('donations.api.urls')),
+    path('api/media/', include('media.api.urls')),
+    path('api/reports/', include('reports.api.urls')),
     
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
