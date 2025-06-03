@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .view import ProjectViewSet, ProjectTagViewSet
+from .views import ProjectViewSet, ProjectTagViewSet
 
 router = DefaultRouter()
 router.register('', ProjectViewSet, basename='projects')
